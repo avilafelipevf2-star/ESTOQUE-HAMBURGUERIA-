@@ -1,0 +1,40 @@
+{
+  "name": "JB Estoque — Juninho Burgers",
+  "short_name": "JB Estoque",
+  "description": "Controle de estoque do Juninho Burgers, Frutal MG",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f4f1",
+  "theme_color": "#D85A30",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Novo item",
+      "short_name": "Novo item",
+      "description": "Adicionar item ao estoque",
+      "url": "/?action=new"
+    },
+    {
+      "name": "Ver alertas",
+      "short_name": "Alertas",
+      "description": "Ver itens com estoque baixo",
+      "url": "/?tab=alertas"
+    }
+  ]
+}
